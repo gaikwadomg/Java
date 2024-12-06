@@ -9,7 +9,6 @@ public class moveX{
             System.out.println(newstr);
             return;
         }
-
         if (str.charAt(indx) == 'x'){
             count = count +1;
             moveXToLast(str , indx+1, count , newstr);
@@ -18,9 +17,6 @@ public class moveX{
             newstr = newstr + str.charAt(indx);
             moveXToLast(str , indx+1, count , newstr);
         }
-
-
-
     }
     public static void main(String[] args){
         String str = "aaxxkkkkxa";
